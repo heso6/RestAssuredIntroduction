@@ -8,6 +8,12 @@ import static io.restassured.RestAssured.*;
 public class GetAllPosts extends TestBase {
     private String posts = "/posts";
 
+    String body = "{\n" +
+            "    \"userId\": 1,\n" +
+            "    \"title\": \"some title\",\n" +
+            "    \"body\": \"Lorem Ipsum Lorem Ipsum Lorem Ipsum vLorem Ipsum Lorem Ipsum\"\n" +
+            "}";
+
     @Test
     public void shouldGetAllPosts() {
         when()
