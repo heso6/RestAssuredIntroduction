@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 public class GetAllUsers extends TestBase {
-    private String users = "/users";
 
     @Test
     public void shouldGetAllUsers() {

@@ -11,10 +11,6 @@ import static io.restassured.RestAssured.given;
 
 public class PatchUser extends TestBase {
 
-
-    private String users = "/users";
-
-
     String fullBody = "{\n" +
             "    \"name\": \"Jan\",\n" +
             "    \"username\": \"Kowal\",\n" +

@@ -7,8 +7,6 @@ import static io.restassured.RestAssured.given;
 
 public class DeleteUser extends TestBase {
 
-    private String users = "/users";
-
     @Test
     public void shouldDeleteFirstUser() {
         given()

@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 public class GetAllPosts extends TestBase {
-    private String posts = "/posts";
 
     String body = "{\n" +
             "    \"userId\": 1,\n" +

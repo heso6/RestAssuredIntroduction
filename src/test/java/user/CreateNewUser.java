@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 public class CreateNewUser extends TestBase {
 
-    private String users = "/users";
-
     String body = "{\n" +
             "    \"name\": \"Jan Kowalski\",\n" +
             "    \"username\": \"Kowal\",\n" +

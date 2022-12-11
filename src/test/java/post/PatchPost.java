@@ -11,8 +11,6 @@ import static io.restassured.RestAssured.given;
 
 public class PatchPost extends TestBase {
 
-    private String posts = "/posts";
-
     String fullBody = "{\n" +
             "    \"userId\": 123123123,\n" +
             "    \"title\": \"some new title\",\n" +
