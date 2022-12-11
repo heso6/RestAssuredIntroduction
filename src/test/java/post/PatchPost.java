@@ -1,3 +1,6 @@
+package post;
+
+import base.TestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

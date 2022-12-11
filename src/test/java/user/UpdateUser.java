@@ -1,3 +1,6 @@
+package user;
+
+import base.TestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -10,7 +13,6 @@ public class UpdateUser extends TestBase {
 
 
     private String users = "/users";
-
 
     String fullBody = "{\n" +
             "    \"name\": \"Jan\",\n" +
